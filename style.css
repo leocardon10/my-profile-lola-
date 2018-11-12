@@ -1,0 +1,59 @@
+
+	/* colors and fonts */
+body {
+        background-color: #D3D3D3;
+        color: rgb(30, 30, 30)
+        font-family: courier;
+        font-size: 17px;
+}
+
+h1, h2, h3 {
+        font-family: courier; 
+}
+h1 {
+        color: pink;
+        font-weight: 100;
+        letter-spacing: 10px; 
+        font-size: 60px;
+        text-shadow: 2px 2px 2px   
+}
+h2 {
+        color: cyan blue;
+        font-weight: 100;
+        letter-spacing: 10px; 
+        font-size: 50px;
+}
+h3 {
+        color: green;
+        font-weight: 100;
+        letter-spacing: 10px; 
+        font-size: 70px;
+}
+a {
+        text-decoration: none;
+        color: red;
+}
+a:hover {
+        color: white;
+}
+img {
+        box-shadow: 1px 1px 1px 
+}
+
+/* custom design with class */
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: Pink;
+	color: black;
+	padding: 10px 23px;
+	border-radius: 4px;
+}
+.card-white {
+    background: white;
+	padding: 70px;
+	margin: 50px;
+	border-radius: 8px;
+	box-shadow: 1px 10px 30px rgba (0, 0, 0, 0.1)
+}
